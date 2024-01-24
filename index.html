@@ -16,10 +16,10 @@
         <div class="imgs-div">
           
           <h1 class="name-h1">adamkeyes</h1>
-          <img class="div-img" src="img/icon-github.svg" alt="icon-github">
-          <img class="div-img" src="img/icon-custom.svg" alt="icon-custom">
-          <img class="div-img" src="img/icon-linkedin.svg" alt="icon-linkedin">
-          <img class="div-img" src="img/icon-twitter.svg" alt="icon-twitter">
+          <a><img class="div-img" src="img/icon-github.svg" alt="icon-github"></a>
+          <a><img class="div-img" src="img/icon-custom.svg" alt="icon-custom"></a>
+          <a><img class="div-img" src="img/icon-linkedin.svg" alt="icon-linkedin"></a>
+          <a><img class="div-img" src="img/icon-twitter.svg" alt="icon-twitter"></a>
         </div>
     </header>
     <main>
@@ -60,52 +60,90 @@
         
         <section class="article-section">
         <article>
-          <img class="img-article" src="img/thumbnail-project-1-small.webp" alt="thumbnail-project-1-small">
-          <h3>DESIGN PORTFOLIO</h3>
-          <p class="projects-p">HTML CSS</p>
-          <a class="link-modif" href="">VIEW PROJECT</a>
-          <a class="link-modif" href="">VIEW CODE</a>
+            <img class="img-article" src="img/thumbnail-project-1-small.webp" alt="thumbnail-project-1-small">
+            <h3>DESIGN PORTFOLIO</h3>
+            <p class="projects-p">HTML CSS</p>
+          <div class="div-link-a">
+            <a class="link-modif" href="">VIEW PROJECT</a>
+            <a class="link-modif" href="">VIEW CODE</a>
+          </div>
         </article>
         <article class="article-2">
           <img class="img-article" src="img/thumbnail-project-2-small.webp" alt="thumbnail-project-2-small">
           <h3>E-LEARNING LANDING PAGE</h3>
           <p class="projects-p">HTML CSS</p>
-          <a class="link-modif" href="">VIEW PROJECT</a>
-          <a class="link-modif" href="">VIEW CODE</a>
+          <div class="div-link-a">
+            <a class="link-modif" href="">VIEW PROJECT</a>
+            <a class="link-modif" href="">VIEW CODE</a>
+          </div>
         </article>
         <article>
           <img class="img-article" src="img/thumbnail-project-3-small.webp" alt="">
           <h3>TODO WEB APP</h3>
           <p class="projects-p">HTML CSS JAVASCRIPT</p>
-          <a class="link-modif" href="">VIEW PROJECT</a>
-          <a class="link-modif" href="">VIEW CODE</a>
+          <div class="div-link-a">
+            <a class="link-modif" href="">VIEW PROJECT</a>
+            <a class="link-modif" href="">VIEW CODE</a>
+          </div>
         </article>
         <article>
           <img class="img-article" src="img/thumbnail-project-4-small.webp" alt="">
           <h3>ENTRAINMENT WEB APP</h3>
           <p class="projects-p">HTML CSS JAVASCRIPT</p>
-          <a class="link-modif" href="">VIEW PROJECT</a>
-          <a class="link-modif" href="">VIEW CODE</a>
+          <div class="div-link-a">
+            <a class="link-modif" href="">VIEW PROJECT</a>
+            <a class="link-modif" href="">VIEW CODE</a>
+          </div>
         </article>
         <article>
           <img class="img-article" src="img/thumbnail-project-5-small.webp" alt="">
           <h3>MEMORY GAME</h3>
           <p class="projects-p">HTML CSS JAVASCRIPT</p>
-          <a class="link-modif" href="">VIEW PROJECT</a>
-          <a class="link-modif" href="">VIEW CODE</a>
+          <div class="div-link-a">
+            <a class="link-modif" href="">VIEW PROJECT</a>
+            <a class="link-modif" href="">VIEW CODE</a>
+          </div>
         </article>
-        <article>
+        <article class="end-article">
           <img class="img-article" src="img/thumbnail-project-6-small.webp" alt="">
           <h3>ART GALLERY SHOWCASE</h3>
           <p class="projects-p">HTML CSS JAVASCRIPT</p>
-          <a class="link-modif" href="">VIEW PROJECT</a>
-          <a class="link-modif" href="">VIEW CODE</a>
+          <div class="div-link-a">
+            <a class="link-modif" href="">VIEW PROJECT</a>
+            <a class="link-modif" href="">VIEW CODE</a>
+          </div>
         </article>
       </section>
       </section>
+
+      <section class="contact-section">
+        <article class="contact-article">
+          <h2 class="contact-h2">Contact</h2>
+          <p class="contact-p">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+        </article>
+        <div class="input-div">
+          <label class="namelabel">NAME</label>
+           <input class="name-input" type="text" id="name" name="name" required minlength="5">
+          <label>EMAIL</label>
+          <input class="email-input" type="text" id="name" name="email" required minlength="3">
+          <label>message</label>
+          <input class="message-input" type="text" id="name" name="message" >
+        </div>
+        <button id="btn">SEND MESSAGE</button>
+      </section>
+
       </main>
-      
+        <hr class="hr-footer">
       <footer>
+        
+            <p class="p-footer">adamkeyes</p>
+          <div class="footer-img-div">
+            <a href="#"><img class="img" src="img/icon-github.svg" alt="icon-github"></a>
+            <a href="#"><img  class="img" src="img/icon-custom.svg" alt="icon-custom"></a>
+            <a href="#"><img class="img" src="img/icon-linkedin.svg" alt="icon-linkedin"></a>
+            <a href="#"><img class="img" src="img/icon-twitter.svg" alt="icon-twitter"></a>
+          </div>
+      
       </footer>
 
       <script type="module" src="/main.js"></script>
